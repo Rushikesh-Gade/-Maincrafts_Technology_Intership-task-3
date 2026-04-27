@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rushikesh Gade | Cloud Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">RG<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tag"><i class="fa-solid fa-cloud"></i> Cloud Intern @ Maincrafts Technology</p>
+      <h1>Hi, I'm <span class="highlight">Rushikesh Gade</span></h1>
+      <p class="hero-sub">Aspiring Cloud Engineer passionate about AWS, DevOps, and building scalable infrastructure.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="cloud-icon-wrap">
+        <i class="fa-brands fa-aws"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a cloud enthusiast currently interning at <strong>Maincrafts Technology</strong>, where I'm getting hands-on experience with AWS services including S3, CloudFront, EC2, IAM, and more.
+          </p>
+          <p>
+            I enjoy turning complex infrastructure problems into clean, automated solutions. My goal is to become a certified AWS Solutions Architect and contribute to real-world cloud projects.
+          </p>
+          <div class="skills">
+            <span class="skill-tag"><i class="fa-brands fa-aws"></i> AWS</span>
+            <span class="skill-tag"><i class="fa-solid fa-server"></i> EC2 / S3</span>
+            <span class="skill-tag"><i class="fa-solid fa-shield-halved"></i> IAM</span>
+            <span class="skill-tag"><i class="fa-solid fa-network-wired"></i> CloudFront</span>
+            <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git / GitHub</span>
+            <span class="skill-tag"><i class="fa-solid fa-terminal"></i> Linux / CLI</span>
+            <span class="skill-tag"><i class="fa-brands fa-docker"></i> Docker</span>
+            <span class="skill-tag"><i class="fa-solid fa-gears"></i> GitHub Actions</span>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <h3>5+</h3>
+            <p>AWS Services Used</p>
+          </div>
+          <div class="stat-card">
+            <i class="fa-solid fa-code-branch"></i>
+            <h3>3</h3>
+            <p>Internship Tasks</p>
+          </div>
+          <div class="stat-card">
+            <i class="fa-solid fa-circle-nodes"></i>
+            <h3>CI/CD</h3>
+            <p>Pipeline Automated</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub">Things I've built during my cloud internship</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-bucket"></i></div>
+          <h3>Static Portfolio on AWS S3 + CloudFront</h3>
+          <p>Hosted a responsive single-page portfolio on AWS S3 with static website hosting enabled. Configured CloudFront as a CDN with HTTPS redirect and custom cache behaviors.</p>
+          <div class="project-tags">
+            <span>S3</span><span>CloudFront</span><span>IAM</span><span>HTTPS</span>
+          </div>
+          <a href="https://github.com/Rushikesh-Gade/-Maincrafts_Technology_Intership-task1" target="_blank" class="project-link">
+            <i class="fa-brands fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>Dockerized Web App on AWS EC2</h3>
+          <p>Containerized a portfolio website using Docker and deployed it on an AWS EC2 instance. Configured security groups, SSH access, and ran Nginx inside a Docker container.</p>
+          <div class="project-tags">
+            <span>Docker</span><span>EC2</span><span>Nginx</span><span>Linux</span>
+          </div>
+          <a href="https://github.com/Rushikesh-Gade/-Maincrafts_Technology_Intership-task-2" target="_blank" class="project-link">
+            <i class="fa-brands fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"><i class="fa-solid fa-gears"></i></div>
+          <h3>CI/CD Pipeline with GitHub Actions</h3>
+          <p>Built a fully automated CI/CD pipeline using GitHub Actions. On every push to main, the pipeline builds a Docker image and pushes it to Docker Hub automatically.</p>
+          <div class="project-tags">
+            <span>GitHub Actions</span><span>Docker Hub</span><span>CI/CD</span><span>YAML</span>
+          </div>
+          <a href="https://github.com/Rushikesh-Gade/-Maincrafts_Technology_Intership-task-3" target="_blank" class="project-link">
+            <i class="fa-brands fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-sub">Feel free to reach out for collaborations or just a chat</p>
+      <div class="contact-grid">
+        <a href="https://mail.google.com/mail/?view=cm&to=rushikeshgade093@gmail.com" target="_blank" class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email Me</span>
+        </a>
+        <a href="https://github.com/Rushikesh-Gade" target="_blank" class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/rushikesh-gade-9032a9238" target="_blank" class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & Built by <span class="highlight">Rushikesh Gade</span> &nbsp;|&nbsp; Cloud Intern @ Maincrafts Technology</p>
+    <p class="footer-sub">CI/CD Automated with GitHub Actions + Docker Hub &nbsp;<i class="fa-solid fa-gears"></i></p>
+  </footer>
+
+</body>
+</html>
